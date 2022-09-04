@@ -30,7 +30,7 @@ export const SchImg = styled.img`
 `
 
 export const SchName = styled.h3`
-    margin-bottom:0px;
+    margin-bottom:8px;
     font-size:24px;
     text-align:right;
 
@@ -43,7 +43,7 @@ export const SchLoc = styled.p`
 export const SchInfo = styled.p`
     margin-bottom:20px;
     font-size:16px;
-    text-align:right;
+    text-align:left;
 `
 export const SchMsg = styled.p`
     margin-bottom:20px;

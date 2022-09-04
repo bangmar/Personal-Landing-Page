@@ -9,12 +9,12 @@ const CV = () => {
     const [isClicked, setIsClicked] = useState(true)
 
     const onButtonClick = () => {
-        fetch('test.pdf').then(response => {
+        fetch('CV_MarioRS.pdf').then(response => {
             response.blob().then(blob => {
                 const fileURL = window.URL.createObjectURL(blob);
                 let alink = document.createElement('a');
                 alink.href = fileURL;
-                alink.download = 'test.pdf';
+                alink.download = 'Mario Rudy S - CV.pdf';
                 alink.click();
                 setIsClicked(false)
             })
