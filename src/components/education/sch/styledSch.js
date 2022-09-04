@@ -25,7 +25,7 @@ export const SchImg = styled.img`
         margin-top:40px;
         justify-self:center;
         margin-bottom:-35px;
-        height:250px;
+        height:170px;
     }
 `
 

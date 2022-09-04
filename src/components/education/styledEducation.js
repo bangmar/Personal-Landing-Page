@@ -29,6 +29,9 @@ export const Options = styled.div`
     display:flex;    
     gap:20px;
     justify-content:flex-end;
+    @media (max-width: 768px) {
+        gap:15px;   
+    }
 `
 
 export const Option = styled.h5`
@@ -48,4 +51,5 @@ export const Option = styled.h5`
         background-color:#9797cd;
         color:#000000;
     }
+    
 `
