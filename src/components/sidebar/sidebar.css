@@ -1,0 +1,9 @@
+.sidebar {
+    transition: all 0.3s ease-in-out;
+}
+
+.sidebar.colorChange {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    top: 60px;
+}

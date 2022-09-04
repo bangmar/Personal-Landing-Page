@@ -1,0 +1,8 @@
+.option {
+    color: #E7E7E7;
+}
+
+.option.actived {
+    background-color: #9797cd;
+    color: black;
+}

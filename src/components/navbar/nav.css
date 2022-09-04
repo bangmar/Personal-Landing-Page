@@ -1,0 +1,42 @@
+.navbar {
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar.colorChange {
+    background-color: #E7E7E7;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    top: 0;
+}
+
+.navBrand {
+    color: #E7E7E7;
+}
+
+.navBrand.colorChange {
+    color: #000000;
+}
+
+.navlink {
+    color: #E7E7E7;
+}
+
+.navlink.colorChange {
+    color: #000000;
+}
+
+.nav-link.active {
+    font-weight: bold;
+}
+
+.hamburger {
+    top: 10px;
+    transform: translate(0, 80%);
+    color: #fff;
+}
+
+.hamburger.active {
+    top: -5px;
+    color: #000000;
+}
