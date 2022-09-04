@@ -4,7 +4,7 @@ import {Container, Heading1,Heading1Wrapper, Heading5, Span, OptionWrapper, Opti
 
 function Home() {
 
-    const teks = ["Proggrammer", "Developer", "Enginner"]
+    const teks = ["Programmer", "Developer", "Enginner"]
     const [option, setOption] = useState(teks[0])
 
     const clicked = (e) => {
