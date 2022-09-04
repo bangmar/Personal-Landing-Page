@@ -43,12 +43,12 @@ export const SchLoc = styled.p`
 export const SchInfo = styled.p`
     margin-bottom:20px;
     font-size:16px;
-    text-align:left;
+    text-align:right;
 `
 export const SchMsg = styled.p`
     margin-bottom:20px;
     font-size:16px;
-    text-align:justify;
+    text-align:left;
     line-height:22px;
 `
 export const SchInfoSpan = styled.span`
