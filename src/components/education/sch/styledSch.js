@@ -21,11 +21,11 @@ export const SchImg = styled.img`
     justify-self:end;
     height:300px;
     box-shadow: 2px -12px 22px -5px #e7e7e744;
-    transition: all 2s ease-in-out;
     @media (max-width: 768px) {
-        margin-top:20px;
+        margin-top:40px;
+        justify-self:center;
         margin-bottom:-35px;
-        height:150px;
+        height:250px;
     }
 `
 
