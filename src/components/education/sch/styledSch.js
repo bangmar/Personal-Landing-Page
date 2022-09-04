@@ -32,18 +32,18 @@ export const SchImg = styled.img`
 export const SchName = styled.h3`
     margin-bottom:8px;
     font-size:24px;
-    text-align:right;
+    text-align:left;
 
 `
 export const SchLoc = styled.p`
-    margin-bottom:20px;
+    margin-bottom:30px;
     font-size:12px;
-    text-align:right;
+    text-align:left;
 `
 export const SchInfo = styled.p`
-    margin-bottom:20px;
+    margin-bottom:10px;
     font-size:16px;
-    text-align:right;
+    text-align:left;
 `
 export const SchMsg = styled.p`
     margin-bottom:20px;
